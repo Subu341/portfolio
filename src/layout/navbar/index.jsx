@@ -51,6 +51,12 @@ const Navbar = ({ currentPage, setCurrentPage }) => {
             Projects
           </button>
           <button 
+            className={`nav-link ${currentPage === 'certifications' ? 'active' : ''}`} 
+            onClick={() => { setCurrentPage('certifications'); setIsMobileMenuOpen(false); }}
+          >
+            Certifications
+          </button>
+          <button 
             className={`nav-link ${currentPage === 'contact' ? 'active' : ''}`} 
             onClick={() => { setCurrentPage('contact'); setIsMobileMenuOpen(false); }}
           >

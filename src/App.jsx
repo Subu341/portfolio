@@ -5,6 +5,7 @@ import Home from './home';
 import About from './about';
 import Skills from './skills';
 import Projects from './projects';
+import Certifications from './certifications';
 import Contact from './contact';
 import Footer from './layout/footer';
 
@@ -21,6 +22,8 @@ function App() {
         return <Skills />;
       case 'projects':
         return <Projects />;
+      case 'certifications':
+        return <Certifications />;
       case 'contact':
         return <Contact />;
       default:
