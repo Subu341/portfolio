@@ -1,10 +1,6 @@
 import React from 'react';
 import './certifications.css';
 
-// Import certificate images
-import hackmanthanCert from '../../public/certificate1.jpeg';
-import techblitzCert from '../../public/certificate2.jpeg';
-
 const Certifications = () => {
   const certificates = [
     {
@@ -13,7 +9,7 @@ const Certifications = () => {
       organization: "EventEye & GeeksforGeeks",
       event: "24-hour Hackathon at Lovely Professional University",
       date: "2025",
-      image: hackmanthanCert,
+      image: "/certificate1.jpeg",
       description: "Successfully participated in HackManthan 2025, a 24-hour hackathon organized by EventEye, held at Lovely Professional University. Demonstrated enthusiasm, creativity, and contribution towards building innovative solutions during the event."
     },
     {
@@ -22,7 +18,7 @@ const Certifications = () => {
       organization: "Coding Ninjas LPU & Learner's Arc",
       event: "24-hour Hackathon on Web Development and AI",
       date: "September 19-20, 2025",
-      image: techblitzCert,
+      image: "/certificate2.jpeg",
       description: "Participated in Tech Blitz 2025, a 24-hour hackathon organized by Coding Ninjas LPU, showcasing skills and innovation in the fields of Web Development and Artificial Intelligence. The event featured expert-led sessions providing valuable insights, mentorship, and industry-driven knowledge."
     }
   ];
