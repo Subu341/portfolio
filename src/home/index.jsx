@@ -19,12 +19,12 @@ const Home = ({ setCurrentPage }) => {
               Enthusiastic about learning new technologies, building innovative solutions, and creating impactful digital experiences with modern web technologies.
             </p>
             <div className="home-buttons">
-              <a href="#projects" className="btn btn-primary view-my-work">
-                View My Work
-              </a>
-              <a href="#contact" className="btn btn-primary get-in-touch">
+              <button 
+                onClick={() => setCurrentPage('contact')} 
+                className="btn btn-primary get-in-touch"
+              >
                 Get In Touch
-              </a>
+              </button>
             </div>
             <div className="home-social">
               <a href="mailto:subhalaxmichoudhury174@gmail.com" className="social-link">
