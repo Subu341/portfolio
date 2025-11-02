@@ -66,15 +66,15 @@ const Skills = () => {
             <h3>Education</h3>
             <div className="education-item">
               <h4>Master of Computer Applications (MCA)</h4>
-              <p className="institution">CV Raman Global University, Bhubaneswar</p>
-              <p className="duration">2022 - 2024</p>
-              <p className="grade">CGPA: 8.31</p>
+              <p className="institution">Lovely Professional University</p>
+              <p className="duration">2025</p>
+              <p className="grade">Pursuing</p>
             </div>
             <div className="education-item">
-              <h4>Bachelor of Science (B.Sc) - Mathematics</h4>
-              <p className="institution">Ravenshaw University, Cuttack</p>
-              <p className="duration">2019 - 2022</p>
-              <p className="grade">CGPA: 8.12</p>
+              <h4>Bachelor of Science (B.Sc) - Statistics</h4>
+              <p className="institution">Government Autonomous University, Rourkela</p>
+              <p className="duration">2022 - 2025</p>
+              <p className="grade">CGPA: 7.5</p>
             </div>
           </div>
         </div>

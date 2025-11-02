@@ -49,7 +49,7 @@ const Home = ({ setCurrentPage }) => {
               <div className="floating-element element-3">JavaScript</div>
               <div className="floating-element element-4">HTML</div>
               <div className="floating-element element-5">CSS</div>
-              <div className="floating-element element-6">Data Analysis</div>
+              <div className="floating-element element-6">R Language</div>
             </div>
           </div>
         </div>

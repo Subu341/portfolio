@@ -9,10 +9,9 @@ const About = ({ setCurrentPage }) => {
           <div className="about-text">
             <h2 className="about-title">About Me</h2>
             <p className="about-description">
-              I'm Subhalaxmi Choudhury, a passionate MCA graduate from CV Raman Global University 
-              with a strong foundation in computer applications and software development. With a 
-              CGPA of 8.31 in my Master's and 8.12 in my Bachelor's degree in Mathematics from 
-              Ravenshaw University, I bring both technical expertise and analytical thinking to 
+              I'm Subhalaxmi Choudhury, a passionate MCA graduate from Lovely Professional University 
+              with a strong foundation in computer applications and software development. And pursuing Master's and 7.5CGPA in my Bachelor's degree in Statistics from 
+              Govt Autonomous University, I bring both technical expertise and analytical thinking to 
               every project.
             </p>
             
@@ -31,7 +30,7 @@ const About = ({ setCurrentPage }) => {
                 </div>
                 <div className="highlight-content">
                   <h4>Education Excellence</h4>
-                  <p>MCA with 8.31 CGPA, B.Sc Mathematics with 8.12 CGPA</p>
+                  <p>Pursuing MCA, B.Sc Statistics with 7.5 CGPA</p>
                 </div>
               </div>
 
@@ -99,7 +98,7 @@ const About = ({ setCurrentPage }) => {
                   <div className="skill-icon">
                     <i className="fab fa-html5"></i>
                   </div>
-                  <span>HTML/CSS</span>
+                  <span>CSS</span>
                   <div className="skill-level">90%</div>
                 </div>
                 <div className="skill-card">
@@ -113,14 +112,14 @@ const About = ({ setCurrentPage }) => {
                   <div className="skill-icon">
                     <i className="fab fa-react"></i>
                   </div>
-                  <span>React</span>
+                  <span>R Language</span>
                   <div className="skill-level">70%</div>
                 </div>
                 <div className="skill-card">
                   <div className="skill-icon">
                     <i className="fas fa-database"></i>
                   </div>
-                  <span>MySQL</span>
+                  <span>HTML</span>
                   <div className="skill-level">80%</div>
                 </div>
                 <div className="skill-card">
@@ -134,7 +133,7 @@ const About = ({ setCurrentPage }) => {
                   <div className="skill-icon">
                     <i className="fas fa-chart-bar"></i>
                   </div>
-                  <span>Data Analysis</span>
+                  <span>Java</span>
                   <div className="skill-level">75%</div>
                 </div>
               </div>
