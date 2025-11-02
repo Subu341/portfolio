@@ -10,7 +10,7 @@ const About = ({ setCurrentPage }) => {
             <h2 className="about-title">About Me</h2>
             <p className="about-description">
               I'm Subhalaxmi Choudhury, a passionate MCA graduate from Lovely Professional University 
-              with a strong foundation in computer applications and software development. And pursuing Master's and 7.5CGPA in my Bachelor's degree in Statistics from 
+              with a strong foundation in computer applications and software development. And pursuing Master's and 7.5 CGPA in my Bachelor's degree in Statistics from 
               Govt Autonomous University, I bring both technical expertise and analytical thinking to 
               every project.
             </p>
@@ -19,7 +19,7 @@ const About = ({ setCurrentPage }) => {
               My journey in technology began with a love for mathematics and problem-solving. 
               Through my academic career, I've developed proficiency in programming 
               languages including C, C++, and modern web technologies like 
-              JavaScript, React, HTML, and CSS. I'm particularly interested in full-stack 
+              JavaScript, R Language, HTML, and CSS. I'm particularly interested in full-stack 
               development and data analysis.
             </p>
 
