@@ -4,49 +4,7 @@ import './projects.css';
 const Projects = () => {
   const projects = [
     {
-      id: 1,
-      title: "E-Commerce Web Application",
-      description: "A full-stack e-commerce platform built with React.js and Node.js, featuring user authentication, product catalog, shopping cart, and payment integration.",
-      technologies: ["React", "Node.js", "MySQL", "JavaScript", "CSS"],
-      features: [
-        "User registration and authentication",
-        "Product catalog with search and filter",
-        "Shopping cart and checkout system",
-        "Responsive design"
-      ],
-      status: "Completed",
-      category: "Web Development"
-    },
-    {
-      id: 2,
-      title: "Student Management System",
-      description: "A comprehensive system to manage student records, grades, and academic information built using C++ and MySQL database.",
-      technologies: ["C++", "MySQL", "File Handling"],
-      features: [
-        "Student registration and profile management",
-        "Grade tracking and reporting",
-        "Course enrollment system",
-        "Admin dashboard"
-      ],
-      status: "Completed",
-      category: "Desktop Application"
-    },
-    {
       id: 3,
-      title: "Data Analysis Dashboard",
-      description: "Interactive dashboard for data visualization and analysis using JavaScript and Chart.js libraries, designed to help understand trends and patterns in datasets.",
-      technologies: ["JavaScript", "Chart.js", "HTML5", "CSS3"],
-      features: [
-        "Data import and processing",
-        "Statistical analysis and visualization",
-        "Interactive charts and graphs",
-        "Export functionality"
-      ],
-      status: "Completed",
-      category: "Data Science"
-    },
-    {
-      id: 4,
       title: "Portfolio Website",
       description: "Personal portfolio website showcasing skills, projects, and experience. Built with modern React.js and responsive design principles.",
       technologies: ["React", "JavaScript", "HTML5", "CSS3", "Font Awesome"],
@@ -75,7 +33,7 @@ const Projects = () => {
     }
   ];
 
-  const categories = ["All", "Web Development", "Desktop Application", "Data Science", "System Software"];
+  const categories = ["All", "Web Development",  "System Software"];
   const [activeCategory, setActiveCategory] = React.useState("All");
 
   const filteredProjects = activeCategory === "All" 

@@ -20,6 +20,24 @@ const Certifications = () => {
       date: "September 19-20, 2025",
       image: "/certificate2.jpeg",
       description: "Participated in Tech Blitz 2025, a 24-hour hackathon organized by Coding Ninjas LPU, showcasing skills and innovation in the fields of Web Development and Artificial Intelligence. The event featured expert-led sessions providing valuable insights, mentorship, and industry-driven knowledge."
+    },
+    {
+      id: 3,
+      title: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
+      organization: "Oracle University",
+      event: "Oracle Certified Professional Certificate",
+      date: "October 31, 2025",
+      image: "/certificate3.png",
+      description: "Oracle Certified Professional in Cloud Infrastructure 2025 Generative AI. This certificate recognizes proficiency in Oracle's cloud infrastructure and generative AI technologies. Valid until October 31, 2027."
+    },
+    {
+      id: 4,
+      title: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+      organization: "Oracle University",
+      event: "Oracle Certified Foundations Associate Certificate",
+      date: "October 31, 2025",
+      image: "/certificate4.png",
+      description: "Oracle Certified Foundations Associate in Cloud Infrastructure 2025. This certificate validates foundational knowledge of Oracle Cloud Infrastructure services and concepts. Valid until October 31, 2027."
     }
   ];
 
@@ -65,8 +83,8 @@ const Certifications = () => {
             <span className="stat-label">Certificates</span>
           </div>
           <div className="stat-item">
-            <span className="stat-number">2</span>
-            <span className="stat-label">Hackathons</span>
+            <span className="stat-number">4</span>
+            <span className="stat-label">Total Achievements</span>
           </div>
           <div className="stat-item">
             <span className="stat-number">48+</span>
